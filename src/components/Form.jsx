@@ -26,7 +26,7 @@ class Form extends Component {
                 <button type="submit" className="btn btn-primary">Enviar</button>
             </form>
             <div className="text-center p-5">
-                <label className="text-center p-5" >{this.state.count}</label>
+                <label className="text-center p-5" >El valor del contador es {this.state.count}</label>
                     <button className="m-1" onClick={() => this.setState({ count: this.state.count + 1 })}>+</button>
                     <button className="m-1" onClick={() => this.setState({ count: this.state.count - 1 })}>-</button>
             </div>
